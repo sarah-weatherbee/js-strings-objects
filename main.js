@@ -30,3 +30,13 @@ printToDom("thirsty", iAmThirsty(6));
 printToDom("thirsty", iAmThirsty(55));
 
 printToDom("thirsty", iAmThirsty(70));
+
+console.log(1 === '1'); //false triple equal checks value and type
+console.log(1 == '1'); //true double equal only checks value
+console.log(1 !== '2') //true
+
+console.log('cats'.length); //how many characters in a string
+
+const quote = 'winter is coming';
+console.log(quote.indexOf('is')); //returns 7
+console.log(quote.indexOf('bunny')); //returns -1
